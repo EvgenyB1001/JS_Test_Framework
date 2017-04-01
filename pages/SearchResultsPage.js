@@ -5,6 +5,11 @@ var updateFilterButton = $("button.btn-primary");
 
 var helpElement = $("span.ps-suggest-item__text>mark");
 
+/** 
+ * @const
+ */
+const LOADED_FILTER_DATA_URL = 'https://www.upwork.com/o/profiles/browse/?loc=russia&q=web%20developers';
+
 /**
  * @description Method opens advanced filters menu
  */
@@ -40,6 +45,7 @@ var clickUpdate = function () {
  */
 var getFilteringResult = function (countryText) {
 
+    browser.wait(protractor.ExpectedConditions.urlIs(LOADED_FILTER_DATA_URL), 10000);
     return element.all(by.css("div[data-country='" + countryText +"']")).count();
 }
 
