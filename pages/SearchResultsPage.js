@@ -6,14 +6,14 @@ var updateFilterButton = $("button.btn-primary");
 var helpElement = $("span.ps-suggest-item__text>mark");
 
 /**
- * Method opens advanced filters menu
+ * @description Method opens advanced filters menu
  */
 var showAdvancedFilters = function () {
     advancedFiltersButton.click();
 };
 
 /**
- * Method types advanced filter parameter - country
+ * @description Method types advanced filter parameter - country
  *
  * @param {string} countryText Text of filter parameter
  */
@@ -29,10 +29,11 @@ var typeCountryFilter = function (countryText) {
 var clickUpdate = function () {
 
     updateFilterButton.click();
+    browser.waitForAngular();
 };
 
 /**
- * Method types advanced filter parameter - country
+ * @description Method types advanced filter parameter - country
  *
  * @param {string} countryText Text to compare results
  * @return {number} true - if result are correct

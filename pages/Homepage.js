@@ -1,7 +1,7 @@
 var searchInput = $("input[id='q']");
 
 /**
- * Method opens page with current URL
+ * @description Method opens page with current URL
  */
 var get = function() {
   
@@ -9,7 +9,7 @@ var get = function() {
 };
 
 /**
- * Method types text, got as parameter, to search information
+ * @description Method types text, got as parameter, to search information
  *
  * @param {string} text Text to search
  */

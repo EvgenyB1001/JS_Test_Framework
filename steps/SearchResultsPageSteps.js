@@ -1,7 +1,7 @@
 var searchResultsPage = module.require('../pages/SearchResultsPage');
 
 /**
- * Step to set filter by country
+ * @description Step to set filter by country
  *
  * @param {string} countryText country to set filter
  */
@@ -13,7 +13,7 @@ var setCountryFilter = function(countryText) {
 };
 
 /**
- * Step to check results of filtering
+ * @description Step to check results of filtering
  *
  * @param {string} expectedResult text to match
  *

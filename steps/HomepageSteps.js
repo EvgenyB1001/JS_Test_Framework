@@ -1,7 +1,7 @@
 var homepage = module.require('../pages/Homepage');
 
 /**
- * Step to open homepage
+ * @description Step to open homepage
  */
 var openPage = function () {
 
@@ -9,7 +9,7 @@ var openPage = function () {
 };
 
 /**
- * Step to search informaation
+ * @description Step to search informaation
  *
  * @param {string} searchText text to search
  */
