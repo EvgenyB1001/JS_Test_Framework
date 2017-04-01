@@ -17,7 +17,7 @@ var setCountryFilter = function(countryText) {
  *
  * @param {string} expectedResult text to match
  *
- * @return {number} true - results are correct
+ * @return {number} count of correct results
  */
 var getFilteringResult = function(expectedResult) {
 
