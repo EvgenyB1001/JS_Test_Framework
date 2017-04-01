@@ -1,0 +1,1 @@
+protractor TestScript_conf.js > log.txt
