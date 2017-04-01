@@ -24,7 +24,7 @@ var typeCountryFilter = function (countryText) {
 };
 
 /**
- * Method clicks the button to update data
+ * @description Method clicks the button to update data
  */
 var clickUpdate = function () {
 
@@ -36,7 +36,7 @@ var clickUpdate = function () {
  * @description Method types advanced filter parameter - country
  *
  * @param {string} countryText Text to compare results
- * @return {number} true - if result are correct
+ * @return {number} count of correct results
  */
 var getFilteringResult = function (countryText) {
 
